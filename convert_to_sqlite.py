@@ -1,4 +1,12 @@
 #!python3
+"""This module provides a commandline tool to convert the four free-level CSVs
+provided by ekidata.jp from CSV to sqlite. The column names have been modified
+from the original CSVs for easier understandability.
+
+To keep the script simple, this script only creates a new sqlite database and
+cannot update existing DB files. This should be fine since creating the DB
+from scratch is fast enough on my machine (<1 second on a Macbook Pro 2019).
+"""
 import argparse
 import csv
 import os
