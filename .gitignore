@@ -1,1 +1,7 @@
 .vscode
+
+# data files
+company*.csv
+join*.csv
+line*.csv
+station*.csv
