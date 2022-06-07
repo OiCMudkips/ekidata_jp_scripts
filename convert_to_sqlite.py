@@ -10,7 +10,6 @@ from scratch is fast enough on my machine (<1 second on a Macbook Pro 2019).
 import argparse
 import csv
 import os
-import sys
 import sqlite3
 
 COMPANY_CREATE_SQLITE_STATEMENT = """
